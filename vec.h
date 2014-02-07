@@ -1,4 +1,7 @@
-//This file is taken from the textbook: introduction to computer graphics
+//This file is provided in the book: 
+//Interactive Computer Graphics: a Top-Down Approach with Shader-based OpenGL,
+//sixth edition,by Edward Angel and Dave Shreiner, Addison-Wesley, 2012.
+
 //////////////////////////////////////////////////////////////////////////////
 //
 //  --- vec.h ---
