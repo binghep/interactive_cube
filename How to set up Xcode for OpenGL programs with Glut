@@ -1,0 +1,10 @@
+			How to set up Xcode for OpenGL programs with Glut
+CSCI 5607: Computer Graphics I. 
+Author: Jiayi Peng
+
+1. Add a new project in Xcode. Next, add OpenGL framework.
+2. Add minigame.cpp to the Source file.
+4. We should see minigame.cpp file already in the project folder after step 2. Copy mat.h and vec.h (provided as helper matrices and vectors headers by the author of our textbook) to the project folder. They provide the interface to do matrix initialization and matrix vector multiplication.
+ 3. Add fshader1.glsl and vshader1.glsl to the "<project folder>/Build_Products/Debug" folder. This is because in Xcode->preference->Location, Make sure that the derived data is set to be Custom (e.g. /Users/Alice/Documents/5607/Intro to OpenGL). Click the button labeled Advanced, and then the Build Location window pops up. I chose Custom->Relative to Workspace->Products: Build_Products.
+After that, I put fshader1.glsl and vshader1.glsl into /Users/Alice/Documents/5607/Intro to OpenGL/Debug folder. Also, maybe we need to build and run our project first to let the Build_Products folder be created automatically by Xcode.
+4. My polygon model is hardcoded in my project, so there is no input file.
