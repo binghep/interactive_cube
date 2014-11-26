@@ -1,4 +1,4 @@
-interactive_cube
+Xcode Interactive Cube(Simple Game)
 ================
 
-Works in Xcode. Simple game including dragging mouse, ctl + mouse, and walking around the scene using arrow keys.
+Works in Xcode. Functionalities include dragging to turn and walking around the scene using arrow keys.
